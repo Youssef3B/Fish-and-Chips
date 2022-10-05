@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: url(images/fond\ \(1\).png);
+}
+nav{
+    background-color: #34B1B2;
+    margin-top: 70px;
+    border-top: #2f9696 solid 8px;
+    border-bottom: #2f9696 solid 8px;
+    height: 180px;
+}
+nav img{
+    display: block;
+    margin: auto;
+}
+nav ul{
+    text-align: center;
+    
+}
+nav ul li{
+    display: inline-block;
+    text-align: center;   
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    padding-bottom: 300px;
+    font-size: 22px;
+    margin-top: 20px;
+}
+.title h2{
+    font-size: 36px;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: gray ;
+}
+.title p{
+    font-size: 20px;
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    color: gray ;
+    line-height: 36px;
+}
+.left{
+    background-color: #D3EEEE;;
+    height: 1100px;
+    width: 1000px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.right{
+    background-color: #34B1B2;
+    height: 900px;
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 30px;
+    border: #2f9696 solid 6px;
+    position: relative;
+}
+.right img{
+    position: absolute;
+    left: 300px;
+    bottom: 800px;
+}
+.all{
+    display: flex;
+    
+}
+.left h1{
+    text-align: center;
+    padding-top: 60px;
+    font-size: 56px;
+    color: rgb(135, 135, 135);
+    font-weight: 500;
+}
+.left h1 span{
+    color: #2f9696;
+}
+.container{
+    display: flex;
+}
+.container .left_container h3{
+    color: rgb(135, 135, 135);
+    font-size: 34px;
+    font-weight: 600;
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.left_container{
+    margin-left: 30px;
+    margin-right: 40px;
+}
+
+.left_container img{
+    width: 120px;
+    float: left;
+    border-radius: 100px;
+}
+#text-image{
+   display: block;
+   font-size: 21px;
+   margin-left: 4px;
+   color: rgb(135, 135, 135);
+   line-height: 36px;
+}
+.left_container p{
+    font-size: 21px;
+   margin-left: 4px;
+   color: rgb(135, 135, 135);
+   line-height: 36px;
+   margin-top: 20px;
+}
+.left_container button{
+    height: 40px;
+    width: 130px;
+    background-color: #34B1B2;
+    color: white;
+    border: none;
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.paragraphe{
+    margin-left: 16px;
+}
+#news{
+    font-size: 30px;
+    margin-top: 30px;
+    color: rgb(224, 224, 224);
+    margin-left: 16px;
+}
+#news span{
+    color: white;
+}
+#date{
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #D3EEEE;
+}
+#description{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+#academy{
+    width: 60px;;
+    height: 60px;
+    padding-top: 20px;
+    display: block;
+    margin: auto;
+}
+.footer p{
+    font-size: 12px;
+    text-align: center;
+    width: 60%;
+    margin-top: 10px;
+    margin: auto;
+}
+.left_container i{
+    color: #2f9696;
+}
